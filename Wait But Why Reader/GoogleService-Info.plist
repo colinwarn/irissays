@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>950590151945-j55qalku9akpuvcke0131j4mh7132e77.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.950590151945-j55qalku9akpuvcke0131j4mh7132e77</string>
+	<key>API_KEY</key>
+	<string>AIzaSyASYy6Al4YEe_mSK5rnNGosekWZQFic6sM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>950590151945</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.colinwarn.SiriSays</string>
+	<key>PROJECT_ID</key>
+	<string>iris-says</string>
+	<key>STORAGE_BUCKET</key>
+	<string>iris-says.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:950590151945:ios:d9c87444de8ed253</string>
+	<key>DATABASE_URL</key>
+	<string>https://iris-says.firebaseio.com</string>
+</dict>
+</plist>

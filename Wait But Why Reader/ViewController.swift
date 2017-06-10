@@ -11,7 +11,7 @@ import AVFoundation
 import GoogleMobileAds
 import StoreKit
 
-class ViewController: UIViewController, UITextFieldDelegate, GADBannerViewDelegate, SKProductsRequestDelegate {
+class ViewController: UIViewController, UITextFieldDelegate, GADBannerViewDelegate, SKProductsRequestDelegate, SKPaymentTransactionObserver{
     
     
     

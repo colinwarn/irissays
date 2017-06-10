@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.17" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina3_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.14"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -56,7 +56,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="meU-zX-muk">
-                                <rect key="frame" x="241" y="16" width="45" height="22"/>
+                                <rect key="frame" x="241" y="11" width="45" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="45" id="vjx-IX-x2B"/>
                                 </constraints>
@@ -106,7 +106,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" alpha="0.69999998807907104" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bGK-A1-Zmr">
-                                <rect key="frame" x="16" y="16" width="129" height="22"/>
+                                <rect key="frame" x="16" y="13" width="129" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Restore Purchases"/>
                                 <connections>
@@ -125,14 +125,12 @@
                             <constraint firstItem="cst-t2-WIU" firstAttribute="top" secondItem="hGn-qp-yil" secondAttribute="bottom" constant="19" id="Edp-vI-UXD"/>
                             <constraint firstItem="meU-zX-muk" firstAttribute="centerY" secondItem="bGK-A1-Zmr" secondAttribute="centerY" id="FBJ-Wp-niY"/>
                             <constraint firstAttribute="trailingMargin" secondItem="meU-zX-muk" secondAttribute="trailing" constant="18" id="FDt-mS-IkO"/>
-                            <constraint firstItem="bGK-A1-Zmr" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="16" id="JHt-cI-giu"/>
                             <constraint firstAttribute="trailingMargin" secondItem="byT-NZ-MVw" secondAttribute="trailing" id="NH2-LH-ame"/>
                             <constraint firstItem="byT-NZ-MVw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="W7J-Jv-ebq"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="cst-t2-WIU" secondAttribute="bottom" constant="69" id="bQt-ln-IHj"/>
                             <constraint firstItem="bGK-A1-Zmr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="cmf-ar-0Ds"/>
                             <constraint firstItem="jeo-MV-MtE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eeT-4M-NfS"/>
-                            <constraint firstItem="meU-zX-muk" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="16" id="j0r-Md-uPz"/>
-                            <constraint firstItem="byT-NZ-MVw" firstAttribute="top" secondItem="meU-zX-muk" secondAttribute="bottom" constant="12" id="k7g-bq-cxa"/>
+                            <constraint firstItem="byT-NZ-MVw" firstAttribute="top" secondItem="meU-zX-muk" secondAttribute="bottom" constant="5" id="k7g-bq-cxa"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jeo-MV-MtE" secondAttribute="bottom" id="kDV-fV-hXk"/>
                             <constraint firstItem="cjz-2L-vqh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pYj-aT-gjo"/>
                             <constraint firstAttribute="trailing" secondItem="Khu-Id-sEs" secondAttribute="trailing" constant="16" id="tTR-VI-rYB"/>

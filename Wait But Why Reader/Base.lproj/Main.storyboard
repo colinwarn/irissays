@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.17" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina3_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -24,11 +24,11 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="center" semanticContentAttribute="forceLeftToRight" contentHorizontalAlignment="center" contentVerticalAlignment="fill" borderStyle="roundedRect" placeholder="Write Your Query Here" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="byT-NZ-MVw">
-                                <rect key="frame" x="16" y="50" width="343" height="42"/>
+                                <rect key="frame" x="16" y="50" width="288" height="42"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="XsM-vA-XQX"/>
@@ -42,7 +42,7 @@
                                 </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cjz-2L-vqh">
-                                <rect key="frame" x="112.5" y="258.5" width="150" height="150"/>
+                                <rect key="frame" x="85" y="165" width="150" height="150"/>
                                 <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="0.0" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="NM0-bM-n57"/>
@@ -56,7 +56,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="meU-zX-muk">
-                                <rect key="frame" x="296" y="36" width="45" height="2"/>
+                                <rect key="frame" x="241" y="16" width="45" height="22"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="45" id="vjx-IX-x2B"/>
                                 </constraints>
@@ -66,7 +66,7 @@
                                 </connections>
                             </button>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="cst-t2-WIU">
-                                <rect key="frame" x="72.5" y="570" width="230" height="29"/>
+                                <rect key="frame" x="45" y="383" width="230" height="29"/>
                                 <segments>
                                     <segment title="Evil"/>
                                     <segment title="Chipmunk"/>
@@ -78,7 +78,7 @@
                                 </connections>
                             </segmentedControl>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jeo-MV-MtE" customClass="GADBannerView">
-                                <rect key="frame" x="27.5" y="617" width="320" height="50"/>
+                                <rect key="frame" x="0.0" y="430" width="320" height="50"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="5vz-Rk-Jkg"/>
@@ -86,7 +86,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hGn-qp-yil">
-                                <rect key="frame" x="27" y="517" width="109" height="34"/>
+                                <rect key="frame" x="27" y="330" width="109" height="34"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
                                 <state key="normal" title="Remove Ads">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -96,13 +96,22 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Khu-Id-sEs">
-                                <rect key="frame" x="263" y="517" width="96" height="34"/>
+                                <rect key="frame" x="208" y="330" width="96" height="34"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
                                 <state key="normal" title="Add Voices">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="addVoices:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wEg-y2-lgt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.69999998807907104" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bGK-A1-Zmr">
+                                <rect key="frame" x="16" y="16" width="129" height="22"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Restore Purchases"/>
+                                <connections>
+                                    <action selector="clearPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aC4-DC-olM"/>
+                                    <action selector="restorePurchases:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vP3-0V-jJP"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -114,16 +123,20 @@
                             <constraint firstItem="cjz-2L-vqh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="84h-eO-5Ac"/>
                             <constraint firstItem="cst-t2-WIU" firstAttribute="top" secondItem="Khu-Id-sEs" secondAttribute="bottom" constant="19" id="8Sa-3h-dg3"/>
                             <constraint firstItem="cst-t2-WIU" firstAttribute="top" secondItem="hGn-qp-yil" secondAttribute="bottom" constant="19" id="Edp-vI-UXD"/>
+                            <constraint firstItem="meU-zX-muk" firstAttribute="centerY" secondItem="bGK-A1-Zmr" secondAttribute="centerY" id="FBJ-Wp-niY"/>
                             <constraint firstAttribute="trailingMargin" secondItem="meU-zX-muk" secondAttribute="trailing" constant="18" id="FDt-mS-IkO"/>
+                            <constraint firstItem="bGK-A1-Zmr" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="16" id="JHt-cI-giu"/>
                             <constraint firstAttribute="trailingMargin" secondItem="byT-NZ-MVw" secondAttribute="trailing" id="NH2-LH-ame"/>
                             <constraint firstItem="byT-NZ-MVw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="W7J-Jv-ebq"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="cst-t2-WIU" secondAttribute="bottom" constant="69" id="bQt-ln-IHj"/>
+                            <constraint firstItem="bGK-A1-Zmr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="cmf-ar-0Ds"/>
                             <constraint firstItem="jeo-MV-MtE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eeT-4M-NfS"/>
                             <constraint firstItem="meU-zX-muk" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="16" id="j0r-Md-uPz"/>
                             <constraint firstItem="byT-NZ-MVw" firstAttribute="top" secondItem="meU-zX-muk" secondAttribute="bottom" constant="12" id="k7g-bq-cxa"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jeo-MV-MtE" secondAttribute="bottom" id="kDV-fV-hXk"/>
                             <constraint firstItem="cjz-2L-vqh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pYj-aT-gjo"/>
                             <constraint firstAttribute="trailing" secondItem="Khu-Id-sEs" secondAttribute="trailing" constant="16" id="tTR-VI-rYB"/>
+                            <constraint firstItem="bGK-A1-Zmr" firstAttribute="leading" secondItem="byT-NZ-MVw" secondAttribute="leading" id="wTf-kj-UbR"/>
                         </constraints>
                     </view>
                     <connections>

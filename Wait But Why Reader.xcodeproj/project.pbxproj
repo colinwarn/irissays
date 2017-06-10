@@ -18,6 +18,7 @@
 		929341991EE9159300110C20 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 929341981EE9159300110C20 /* GoogleService-Info.plist */; };
 		929378AB1EB2BECE004C30CF /* Pulsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929378AA1EB2BECE004C30CF /* Pulsing.swift */; };
 		929378AD1EB2CC5A004C30CF /* siri.wav in Resources */ = {isa = PBXBuildFile; fileRef = 929378AC1EB2CC5A004C30CF /* siri.wav */; };
+		92FE30CC1EEB0FE700CABD23 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92FE30CB1EEB0FE700CABD23 /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		929341981EE9159300110C20 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		929378AA1EB2BECE004C30CF /* Pulsing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pulsing.swift; sourceTree = "<group>"; };
 		929378AC1EB2CC5A004C30CF /* siri.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = siri.wav; sourceTree = "<group>"; };
+		92FE30CB1EEB0FE700CABD23 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				929341971EE913F700110C20 /* GoogleMobileAds.framework in Frameworks */,
+				92FE30CC1EEB0FE700CABD23 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +93,7 @@
 				9214AB831EB19F2C001AED5A /* Wait But Why ReaderTests */,
 				9214AB8E1EB19F2C001AED5A /* Wait But Why ReaderUITests */,
 				9214AB6D1EB19F2B001AED5A /* Products */,
+				92FE30CA1EEB0FE700CABD23 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,6 +140,14 @@
 				9214AB911EB19F2C001AED5A /* Info.plist */,
 			);
 			path = "Wait But Why ReaderUITests";
+			sourceTree = "<group>";
+		};
+		92FE30CA1EEB0FE700CABD23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92FE30CB1EEB0FE700CABD23 /* StoreKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,6 +220,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 93Q5482J7M;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
 					};
 					9214AB7F1EB19F2C001AED5A = {
 						CreatedOnToolsVersion = 8.2.1;

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.17" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.17" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina3_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -9,11 +9,6 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="HelveticaNeue.ttc">
-            <string>HelveticaNeue-Bold</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -85,64 +80,63 @@
                                     <constraint firstAttribute="width" constant="320" id="TPk-xF-c1S"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hGn-qp-yil">
-                                <rect key="frame" x="27" y="330" width="109" height="34"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
-                                <state key="normal" title="Remove Ads">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="removeAds:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bY8-yf-D4v"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Khu-Id-sEs">
-                                <rect key="frame" x="208" y="330" width="96" height="34"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mQt-6h-sbM">
+                                <rect key="frame" x="16" y="345" width="77" height="30"/>
                                 <state key="normal" title="Add Voices">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="addVoices:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wEg-y2-lgt"/>
+                                    <action selector="addVoices:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dMG-Rz-n0K"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" alpha="0.69999998807907104" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bGK-A1-Zmr">
-                                <rect key="frame" x="16" y="13" width="129" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" title="Restore Purchases"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oJA-c5-uwu">
+                                <rect key="frame" x="224" y="345" width="85" height="30"/>
+                                <state key="normal" title="Remove Ads">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
-                                    <action selector="clearPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aC4-DC-olM"/>
-                                    <action selector="restorePurchases:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vP3-0V-jJP"/>
+                                    <action selector="removeAds:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZVf-89-Ov4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gba-Sx-UcU">
+                                <rect key="frame" x="107" y="348" width="106" height="27"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="Restore Purchases">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="restorePurchases:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zir-iO-AOL"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="hGn-qp-yil" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="27" id="1Tt-WW-lMW"/>
+                            <constraint firstItem="jeo-MV-MtE" firstAttribute="top" secondItem="Gba-Sx-UcU" secondAttribute="bottom" constant="55" id="1hX-K8-HbJ"/>
                             <constraint firstItem="byT-NZ-MVw" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="4LX-ds-1dq"/>
                             <constraint firstItem="cst-t2-WIU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7jw-dC-rFu"/>
                             <constraint firstItem="cjz-2L-vqh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="84h-eO-5Ac"/>
-                            <constraint firstItem="cst-t2-WIU" firstAttribute="top" secondItem="Khu-Id-sEs" secondAttribute="bottom" constant="19" id="8Sa-3h-dg3"/>
-                            <constraint firstItem="cst-t2-WIU" firstAttribute="top" secondItem="hGn-qp-yil" secondAttribute="bottom" constant="19" id="Edp-vI-UXD"/>
-                            <constraint firstItem="meU-zX-muk" firstAttribute="centerY" secondItem="bGK-A1-Zmr" secondAttribute="centerY" id="FBJ-Wp-niY"/>
+                            <constraint firstItem="jeo-MV-MtE" firstAttribute="top" secondItem="mQt-6h-sbM" secondAttribute="bottom" constant="55" id="Ekg-Wh-i2J"/>
                             <constraint firstAttribute="trailingMargin" secondItem="meU-zX-muk" secondAttribute="trailing" constant="18" id="FDt-mS-IkO"/>
+                            <constraint firstItem="Gba-Sx-UcU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KyD-Ok-UAk"/>
                             <constraint firstAttribute="trailingMargin" secondItem="byT-NZ-MVw" secondAttribute="trailing" id="NH2-LH-ame"/>
+                            <constraint firstItem="mQt-6h-sbM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="RgQ-CA-vSu"/>
                             <constraint firstItem="byT-NZ-MVw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="W7J-Jv-ebq"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="cst-t2-WIU" secondAttribute="bottom" constant="69" id="bQt-ln-IHj"/>
-                            <constraint firstItem="bGK-A1-Zmr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="cmf-ar-0Ds"/>
                             <constraint firstItem="jeo-MV-MtE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eeT-4M-NfS"/>
                             <constraint firstItem="byT-NZ-MVw" firstAttribute="top" secondItem="meU-zX-muk" secondAttribute="bottom" constant="5" id="k7g-bq-cxa"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jeo-MV-MtE" secondAttribute="bottom" id="kDV-fV-hXk"/>
                             <constraint firstItem="cjz-2L-vqh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pYj-aT-gjo"/>
-                            <constraint firstAttribute="trailing" secondItem="Khu-Id-sEs" secondAttribute="trailing" constant="16" id="tTR-VI-rYB"/>
-                            <constraint firstItem="bGK-A1-Zmr" firstAttribute="leading" secondItem="byT-NZ-MVw" secondAttribute="leading" id="wTf-kj-UbR"/>
+                            <constraint firstItem="jeo-MV-MtE" firstAttribute="top" secondItem="oJA-c5-uwu" secondAttribute="bottom" constant="55" id="rel-nF-Fan"/>
+                            <constraint firstAttribute="trailing" secondItem="oJA-c5-uwu" secondAttribute="trailing" constant="11" id="uS7-dT-2WF"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="adView" destination="jeo-MV-MtE" id="xlE-LL-ds3"/>
-                        <outlet property="addVoices" destination="Khu-Id-sEs" id="HGO-yF-Nbk"/>
+                        <outlet property="addVoices" destination="mQt-6h-sbM" id="0SY-Cq-2He"/>
                         <outlet property="bannerViewAd" destination="jeo-MV-MtE" id="Yxu-VQ-HaB"/>
                         <outlet property="botVoice" destination="cst-t2-WIU" id="4FM-Id-qlz"/>
-                        <outlet property="removeAds" destination="hGn-qp-yil" id="Wve-eg-FWT"/>
+                        <outlet property="removeAds" destination="oJA-c5-uwu" id="gIh-D4-Zci"/>
+                        <outlet property="restorePurchases" destination="Gba-Sx-UcU" id="Nb7-HO-GOC"/>
                         <outlet property="siriButton" destination="cjz-2L-vqh" id="Z28-L4-NcX"/>
                         <outlet property="urlTextField" destination="byT-NZ-MVw" id="LkS-g3-2lv"/>
                     </connections>
